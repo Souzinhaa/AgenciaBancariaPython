@@ -34,11 +34,26 @@ Criamos a função main, que representa o menu principal do programa.
 Criamos um objeto Agencia.
 No menu principal, se a opção escolhida for "1", o programa pergunta o tipo de cliente e se ele possui necessidade especial. Caso o cliente seja preferencial, o programa pergunta se ele possui necessidade especial e pede a idade do cliente para verificação de prioridade.
 O programa então emite a senha para o cliente e a exibe na tela.
-Se a opção escolhida for "2", o programa simula o atendimento aos clientes pelas caixas.
-Se a opção escolhida for "3", o programa encerra.
+Se a opção escolhida for "2", será gerada uma senha para a fila nromal.
+Se a opção escolhida for "3", o programa simula o atendimento aos clientes pelas caixas.
+Se a opção escolhida for "4", o programa encerra.
 Se a opção escolhida não for válida, o programa exibe uma mensagem de erro.
 Observação: Para atender ao requisito de prioridade no atendimento a pessoas com necessidades especiais e idosos, adicionei o parâmetro idade na função emitir_senha da classe Agencia. Isso porque a verificação de prioridade depende da idade do cliente.
 
+### Conceitos de P.O.O utilizaados
+Classes
+    O conceito de classe foi utilizado nos arquivos Agencia.py, Caixa.py e Cliente.py, sendo que, cada um tem uma classe com o respectivo nome
+Atributos 
+    Cada classe criada por nós tem os atributos citados a cima neste arquivo
+Objetos
+    No nosso arquivo principal, temos o objeto Agencia sendo instanciado por meio da seguinte parte: "agencia = Agencia()"
+Metodos
+    Nossas 3 classes apresentadas possuem metodos, que nada mais são que funções a serem executadas quando chamadas, exemplo: em nosso arquivo main temos o objeto agencia chamando a seguinta função: 'agencia.gerar_senha(False)", que foi criada na classe agencia
+
 ### Integrantes ###
 Bruno Henrique de Souza Pinto - RA: 110402
-
+Nicolas Gomes                 - RA: 109181
+Daniel Henrique de Assis      - RA: 108878
+Felipe Corbanezi              - RA: 
+Adrian                        - RA:
+Hyan                          - RA: 
